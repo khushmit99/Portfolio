@@ -100,12 +100,12 @@ body {
   color: #00abf0;
 }
 
-/* Show dropdown when checked */
+/* Show dropdown */
 #dropdown-toggle:checked + .drop-label + .dropdown-menu {
   display: flex;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
@@ -138,24 +138,38 @@ body {
   }
 }
 
-/* Content sections for testing */
 section {
   padding: 80px 40px 20px 40px;
   min-height: 100vh;
   border-bottom: 1px solid #ddd;
 }
 p1{
-  font-size: 90px;
+  position: relative;
+  left: 100px;
+  top: 13px;
+  font-size: 79px;
   color: #219ebc;
+  text-align: center;
+  justify-content: center;
+
   
 }
 p2{
-  font-size: 40px;
-  color: #89c2d9  ;
+  position: relative;
+  left: 440px;
+    
 }
 p3{
-  font-size: 27px;
-  color: #0e15dc;
+  position: relative;
+  left: 110px;
+  font-size: 35px;
+  color: #00f7ff;
+}
+pf{
+  position: relative;
+  left: 339px;
+  font-size: 30px;
+  color: #00ffbf;
 }
 p4{
     font-size: 72px;
@@ -177,4 +191,55 @@ p7{
   position: relative;
   color: aliceblue;
   font-size: 30px;
+}
+p8{
+  color: white;
+  font-size: 30px;
+}
+p9{
+  color: white;
+  font-size: 30px;
+}
+
+p10{
+  color: aliceblue;
+  font-size: 68px;
+}
+ps{
+  color: rgb(39, 202, 231);
+}
+p11{
+  
+  font-size: 25px;
+}
+p12{
+  
+  font-size: 25px;
+}
+
+p13{
+   font-size: 25px;
+}
+p14{
+   font-size: 25px;
+}
+pp{
+  color: white;
+  font-size: 30px; 
+}
+
+p15{
+   color: white;
+  font-size: 50px; 
+}
+p16
+{
+  color: white;
+  font-size: 30px;
+}
+p17
+{ position: relative;
+  left: 200px;
+  color: white;
+  font-size: 90px;
 }
