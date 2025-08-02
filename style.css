@@ -1,3 +1,4 @@
+
  * {
     margin: 0;
     padding: 0;
@@ -191,15 +192,15 @@ p6{
 }
 p7{
   position: relative;
-  color: rgb(163, 158, 233);
+  color: rgb(94, 205, 239);
   font-size: 30px;
 }
 p8{
-color: rgb(163, 158, 233);
+  color: rgb(94, 205, 239);
   font-size: 30px;
 }
 p9{
-color: rgb(163, 158, 233);
+  color: rgb(94, 205, 239);
   font-size: 30px;
 }
 
@@ -342,6 +343,11 @@ p19:hover {
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .button-85:after {
   z-index: -1;
   content: "";
@@ -356,3 +362,30 @@ p19:hover {
 .button-85:hover {
   color: #a9bcaf;
 }
+
+/* .responsive {
+      font-size: 18px;
+      padding: 20px;
+    } 
+/* small phones 768px 
+        @media (max-width: 768px) {
+      .responsive {
+        font-size: 79px;
+        
+        padding: 15px;
+        word-break: break-word;
+      }
+      section{
+        padding: 1rem;
+        flex-direction: column;
+      }
+    }
+
+/* smallest phones 480px 
+        @media (max-width: 480px) {
+      .responsive {
+        font-size: 79px;
+       
+        padding: 10px;
+      }
+    } */
