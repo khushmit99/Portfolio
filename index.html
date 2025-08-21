@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="siklls.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -19,7 +21,6 @@
        <a href="#KHUSHMIT"></a> <i class=" fa-solid fa-user-tie"> </i>
         KHUSHMEET</div>
 
-    <input type="checkbox" id="menu-toggle" />
     <label for="menu-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
 
     <nav class="nav-links">
@@ -88,48 +89,82 @@ For me, Class 11th is more than a grade — it’s a launchpad to create, innova
 </p>
     </h1></section>
 
-    <!-- class="skills" -->
 
-    <section id="skills" class="skills"><h1>
-      
-    <p10>
-       🛠 Skills That Powers My Code.
-    </p10>
-    <br>  <br>
-<ps class="skills">
-    <p>
-      💻 Programming Languages:<br>
-      C++, Python, HTML, CSS— with JavaScript is on the way.
-    </p>
-    <br>
-    <p>
-      🧠 Core Skills:<br>
-Problem-solving, algorithmic thinking, debugging, and clean code practices.
-    </p>
-    <br>
-    <p>
-      🌐 Backend Development:<br>
-Working with servers, databases, APIs, and building the logic behind the scenes.
-Currently learning backend fundamentals.
-    </p>
-    <br>
-    <p>
-    🚀 Always learning, building projects, and expanding my technical skills.<br>
+<section id="skills" class="skills-wrap">
+  <header class="skills-head">
+    <h1>🛠 Skills That Power My Code</h1>
+    <div class="sub">A quick snapshot of what I work with and how I think.</div>
+  </header>
 
-    </p> 
-    </ps>
+  <section class="skills-grid">
+
+    <section1 class="skill-card">
+      <!-- <div class="icon">💻</div> -->
+      <h3 class="title">Programming Languages</h3>
+      <p class="blurb">Comfortable writing efficient, readable code.</p>
+      <ul class="points">
+        <li>&#8226; &nbsp;C++</li>
+        <li>&#8226; &nbsp;Python</li>
+        <li>&#8226; &nbsp;HTML &amp; CSS</li> 
+        <li class="muted">JavaScript (learning)</li>
+      </ul>
+      <div class="chips">
+        <span>C++17</span><span>OOP</span><span>DSA</span>
+      </div>
+    </section1>
+
+    <section1 class="skill-card">
+      <!-- <div class="icon">🧠</div> -->
+      <h3 class="title">Core Skills</h3>
+      <p class="blurb">Think clearly, debug fast, ship clean code.</p>
+      <ul class="points">
+        <li>&#8226; &nbsp;Problem-solving &amp; algorithms</li>
+        <li>&#8226; &nbsp;Debugging &amp; testing</li>
+        <li>&#8226; &nbsp;Clean code practices</li>
+        <li>&#8226; &nbsp;Version control (Git)</li>
+      </ul>
+      <div class="chips">
+        <span>CLI</span><span>GitHub</span><span>Code Review</span>
+      </div>
+    </section1>
+
+    <section1 class="skill-card">
+      <!-- <div class="icon">🗄️</div> -->
+      <h3 class="title">Backend Development</h3>
+      <p class="blurb">Learning the logic behind the screens.</p>
+      <ul class="points">
+        <li>&#8226; &nbsp;Servers &amp; APIs (REST)</li>
+        <li>&#8226; &nbsp;Databases (basics)</li>
+        <li>&#8226; &nbsp;Auth &amp; security basics</li>
+        <li class="muted">Deepening fundamentals</li>
+      </ul>
+      <div class="chips">
+        <span>HTTP</span><span>JSON</span><span>Postman</span>
+      </div>
+    </section1>
+
+    <section1 class="skill-card">
+      <!-- <div class="icon">🚀</div> -->
+      <h3 class="title">Always Learning</h3>
+      <p class="blurb">Projects that push me to the next level.</p>
+      <ul class="points">
+        <li>&#8226; &nbsp;Mini-projects &amp; practice builds.</li>
+        <li>&#8226; &nbsp;Reading docs &amp; source code.</li>
+        <li>&#8226; &nbsp;Performance &amp; accessibility.</li>
+        <li>&#8226; &nbsp;Clean UI with micro-interactions.</li>
+      </ul>
+      <div class="chips">
+        <span>UI/UX</span><span>A11y</span><span>Perf</span>
+      </div>
+    </section1>
+
+  </section>
+</section>
 
 
 
-    </h1></section>
-    <section id="project1"><h1><pp>Project 1 <br> Currently working on it <br>  :)</pp></h1></section>
-    <section id="project2"><h1><pp>Project 2 <br> Currently working on it <br>  :)</pp></h1></section>
     <section id="contact">
       <h1>
-
-
-
-
      <p15> <i class="fas fa-envelope"></i> Contact Me.</p15>
         <br>
           <p16>Feel free to reach out to me through the following:</p16>
@@ -145,9 +180,6 @@ Currently learning backend fundamentals.
       <a href="https://github.com/khushmit99" target="_blank" ><i class="fa-brands fa-github"></i></a>
           </p19> 
 
-          <!-- <p20>
-      <a href="khushbokre@gmail.com" target="_blank" ><i class="fa-regular fa-envelope"></i></a>
-          </p20>  -->
            
 
            <a href="https://www.linkedin.com/in/khushmit-bokre-3a301a370/" target="_blank" ><button class="button-85" role="button" >LET's CONNECT </button>

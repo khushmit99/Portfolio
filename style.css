@@ -6,34 +6,42 @@
 }
 /* Smooth scroll */
 html {
-  scroll-behavior: smooth;
+   scroll-behavior: smooth; 
+
 }
 
 /* Basic Reset */
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
-  
-  background-color: #081b29;
+
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  background-color: #061922;
 }
 
 /* Navbar */
 .navbar {
-  background-color: #081b29;
+  background-color: #293138;
   color: white;
-  padding: 15px 20px;
+  padding: 9px 23px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1000;
+  gap: 500px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #00f7ff ;
+  
 }
 
 /* Logo */
 .logo {
+  
   font-size: 1.5rem;
   font-weight: bold;
+  cursor: pointer;
+
 }
 
 /* Hide checkbox */
@@ -142,11 +150,15 @@ body {
   }
 }
 
+/* sectiion  */
+
 section {
-  padding: 80px 40px 20px 40px;
+  padding: 50px 40px 20px ;
   min-height: 100vh;
-  border-bottom: 1px solid #ddd;
 }
+
+
+
 p1{
   position: relative;
   left: 100px;
@@ -197,19 +209,7 @@ p6{
   color: rgb(94, 205, 239);
   font-size: 30px;
 }
-p10{
-  color: aliceblue;
-  font-size: 68px;
-}
 
-.skills{  font-size: 25px;
-  color: rgb(39, 202, 231);
-}
-
-pp{
-  color: white;
-  font-size: 30px; 
-}
 
 p15{
    color: white;
@@ -257,14 +257,6 @@ p19
 p19:hover {
   color: #00abf0;
 }
-
-/* p20
-{ position: relative;
-  top: 280px;
-  left: 350px;
-  color: white;
-  font-size: 90px;
-} */
 
 .button-85 {
   height: 90px;
@@ -342,30 +334,4 @@ img {
 .button-85:hover {
   color: #a9bcaf;
 }
-
-/* .responsive {
-      font-size: 18px;
-      padding: 20px;
-    } 
-/* small phones 768px 
-        @media (max-width: 768px) {
-      .responsive {
-        font-size: 79px;
-        
-        padding: 15px;
-        word-break: break-word;
-      }
-      section{
-        padding: 1rem;
-        flex-direction: column;
-      }
-    }
-
-/* smallest phones 480px 
-        @media (max-width: 480px) {
-      .responsive {
-        font-size: 79px;
-       
-        padding: 10px;
-      }
-    } */
+;
