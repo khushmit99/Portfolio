@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #00161d;
+  color: #d9faff;
+
+}
+
+
+.education-section {
+  max-width: 1150px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  color: #66e3ff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px #00eaff;
+}
+
+.section-subtitle {
+  color: #8cdfff;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* Layout */
+.education-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Cards */
+.edu-card {
+  background: rgba(0, 45, 60, 0.25);
+  border: 1.5px solid rgba(0, 255, 255, 0.2);
+  border-radius: 15px;
+  width: 230px;
+  padding: 20px;
+  text-align: left;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0);
+  backdrop-filter: blur(6px);
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.edu-card:hover {
+  border-color: rgba(0, 255, 255, 0.4);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.4);
+}
+
+/* Icon */
+.edu-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 6px #00eaff;
+}
+
+/* Texts */
+.edu-card h2 {
+  color: #89eaff;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.edu-year {
+  font-size: 0.8rem;
+  color: #73e1ff;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  color: #b3f2ff;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+/* Tags */
+.edu-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.edu-tags span {
+  background: rgba(0, 200, 255, 0.15);
+  border: 1px solid rgba(0, 255, 255, 0.25);
+  color: #aff8ff;
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.edu-tags span:hover {
+
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(13, 120, 183, 0.5);
+}
+
+/* Responsiveness */
+@media (max-width: 1024px) {
+  .education-row {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .edu-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .edu-card {
+    width: 100%;
+  }
+  .edu-tags span {
+    font-size: 0.65rem;
+  }
+}
